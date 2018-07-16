@@ -14,7 +14,7 @@ class AmazonTransaction
     @items << "eggs"
   end 
   
-  def apply_discount(discount)
+  def apply_discount
     @total -= discount
   end
 end 
