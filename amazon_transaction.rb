@@ -15,7 +15,7 @@ class AmazonTransaction
   end 
   
   def apply_discount
-    if discount > 0
+    if discount == 20
      @total -= discount
     else
      @total == total
