@@ -19,5 +19,6 @@ class AmazonTransaction
      @total -= discount
     else
      @total == total
+    end 
   end
 end 
