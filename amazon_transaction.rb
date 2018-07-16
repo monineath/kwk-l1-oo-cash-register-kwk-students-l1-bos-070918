@@ -15,6 +15,9 @@ class AmazonTransaction
   end 
   
   def apply_discount
-    @total -= discount
+    if discount > 0
+     @total -= discount
+    else
+     @total == total
   end
 end 
